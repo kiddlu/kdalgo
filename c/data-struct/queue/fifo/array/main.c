@@ -8,7 +8,7 @@ int main( )
   int i;
 
   init(q);
-  for( i = 0; i < 24; i++ )
+  for( i = 0; i < 100; i++ )
     enqueue(q, 100 - i);
 
   while(!empty(q)) {
